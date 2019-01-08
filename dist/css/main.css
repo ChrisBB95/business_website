@@ -1,0 +1,32 @@
+body {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../img/bg-img.jpg");
+  background-repeat: no-repeat; }
+  body header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #2b2b2b;
+    width: 100%; }
+  body header li {
+    float: right; }
+  body header a {
+    text-decoration: none;
+    padding: 1rem;
+    float: inherit; }
+    body header a:link, body header a:visited {
+      font-size: 20px;
+      color: #fff; }
+    body header a:hover {
+      background: #111; }
+  body footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2b2b2b;
+    color: #fff;
+    height: 3vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
