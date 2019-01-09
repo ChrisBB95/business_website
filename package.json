@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ChrisBB95/business_website#readme",
   "dependencies": {
+    "node-sass": "^4.11.0",
+    "npm": "^6.5.0",
     "sass": "^1.15.3"
   }
 }

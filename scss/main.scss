@@ -18,6 +18,22 @@ body {
   padding-bottom: 5vh;
 
   header {
+
+    #logo {
+      background: url("../img/logo.jpg") no-repeat;
+      background-size: contain;
+      height: 8rem;
+      width: 8rem;
+      margin: 0.5rem;
+      float: left;
+    }
+
+    h1 {
+      float: left;
+      padding: 1.5rem 1rem;
+      font-size: 40px;
+    }
+    
     ul {
       list-style-type: none;
       padding: 0;
@@ -27,8 +43,12 @@ body {
       width: 100%;
     }
 
-    li {
+    #right {
       float: right;
+    }
+
+    li {
+      float: left;
     }
 
     a {
