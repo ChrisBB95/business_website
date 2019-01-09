@@ -1,8 +1,19 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  position: relative; }
+
 body {
-  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("../img/bg-img.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+  padding-bottom: 5vh; }
   body header ul {
     list-style-type: none;
     padding: 0;
@@ -21,12 +32,14 @@ body {
       color: #fff; }
     body header a:hover {
       background: #111; }
-  body footer {
-    text-align: center;
-    padding: 1rem;
+  body main {
+    color: #fff; }
+  body #footer {
     background: #2b2b2b;
     color: #fff;
-    height: 3vh;
+    text-align: center;
+    padding: 1rem;
+    height: 5vh;
     position: absolute;
     bottom: 0;
     width: 100%; }
