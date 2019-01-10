@@ -60,21 +60,21 @@ header .menu {
         header .menu .menu-container .menu-item a:hover {
           background: #111; }
 
-main .slideshow {
+main#home .slideshow {
   max-width: 1000px;
   position: relative;
   margin: 1rem auto; }
-  main .slideshow .slide {
+  main#home .slideshow .slide {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1s;
     animation-name: fade;
     animation-duration: 1s; }
-    main .slideshow .slide#slide1 {
+    main#home .slideshow .slide#slide1 {
       display: block; }
-    main .slideshow .slide#slide2, main .slideshow .slide#slide3, main .slideshow .slide#slide4 {
+    main#home .slideshow .slide#slide2, main#home .slideshow .slide#slide3, main#home .slideshow .slide#slide4 {
       display: none; }
-  main .slideshow .prev,
-  main .slideshow .next {
+  main#home .slideshow .prev,
+  main#home .slideshow .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -86,16 +86,16 @@ main .slideshow {
     transition: 0.3s ease;
     border-radius: 0 3px 3px 0;
     user-select: none; }
-    main .slideshow .prev:hover,
-    main .slideshow .next:hover {
+    main#home .slideshow .prev:hover,
+    main#home .slideshow .next:hover {
       background-color: rgba(0, 0, 0, 0.8); }
-  main .slideshow .next {
+  main#home .slideshow .next {
     right: 0;
     border-radius: 3px 0 0 3px; }
 
-main .dots {
+main#home .dots {
   text-align: center; }
-  main .dots .dot {
+  main#home .dots .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -104,7 +104,7 @@ main .dots {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.3s ease; }
-    main .dots .dot:hover, main .dots .dot.active {
+    main#home .dots .dot:hover, main#home .dots .dot.active {
       background-color: #717171; }
 
 #footer {
