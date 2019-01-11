@@ -68,6 +68,10 @@ header {
       .menu-item {
         float: left;
 
+        &.active {
+          background: #111;
+        }
+
         a {
           text-decoration: none;
           padding: 1rem;

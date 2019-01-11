@@ -1,0 +1,16 @@
+$row-height: 25vh;
+
+.row {
+    height: $row-height;
+    margin: 1rem 0;
+
+    .service-image {
+        float: left;
+        height: $row-height;
+        width: 30%;
+    }
+    .service-text {
+        float: right;
+        width: 68%;
+    }
+}

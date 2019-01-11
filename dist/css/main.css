@@ -50,6 +50,8 @@ header .menu {
     float: right; }
     header .menu .menu-container .menu-item {
       float: left; }
+      header .menu .menu-container .menu-item.active {
+        background: #111; }
       header .menu .menu-container .menu-item a {
         text-decoration: none;
         padding: 1rem;

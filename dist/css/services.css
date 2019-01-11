@@ -1,0 +1,10 @@
+.row {
+  height: 25vh;
+  margin: 1rem 0; }
+  .row .service-image {
+    float: left;
+    height: 25vh;
+    width: 30%; }
+  .row .service-text {
+    float: right;
+    width: 68%; }
