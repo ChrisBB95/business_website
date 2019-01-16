@@ -16,57 +16,60 @@
   </head>
 
   <body>
-    <header id="home">
-      <div id="navbar">
-        <div id="logo"></div>
-        <h1>Beartooth Hiking Company</h1>
-        <ul class="navmenu">
-          <div id="right">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class=""><a href="services.html">Services</a></li>
-              <li class=""><a href="about.html">About</a></li>
-              <li class=""><a href="careers.html">Careers</a></li>
-              <li class=""><a href="contact.html">Contact</a></li>
-          </div>
-        </ul>
-      </div>
+    <header>
+      <div class="logo"></div>
+      <h1>Beartooth Hiking Company</h1>
+      <ul class="menu">
+        <div class="menu-container">
+          <li class="menu-item active"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="services.html">Services</a></li>
+          <li class="menu-item"><a href="careers.html">Careers</a></li>
+          <li class="menu-item"><a href="about.html">About</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
+        </div>
+      </ul>
     </header>
 
     <main id="home">
       <div class="slideshow">
-        <div class="slide fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="img/slideshow/pic1.jpg" style="width:100%">
+        <div class="slide" id="slide1">
+          <img src="img/slideshow/pic1.jpg" style="width:100%" />
         </div>
-        <div class="slide fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="img/slideshow/pic2.jpg" style="width:100%">
+        <div class="slide" id="slide2">
+          <img src="img/slideshow/pic2.jpg" style="width:100%" />
         </div>
-        <div class="slide fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="img/slideshow/pic3.jpg" style="width:100%">
-        </div>  
-        <div class="slide fade">
-          <div class="numbertext">4 / 4</div>
-          <img src="img/slideshow/pic4.jpg" style="width:100%">
+        <div class="slide" id="slide3">
+          <img src="img/slideshow/pic3.jpg" style="width:100%" />
+        </div>
+        <div class="slide" id="slide4">
+          <img src="img/slideshow/pic4.jpg" style="width:100%" />
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        <div class="next" onclick="plusSlides(1)">&#10095;</div>
       </div>
-      <br>
+      <br />
 
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
+      <div class="dots">
+        <span class="dot active" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
       </div>
+      <h2>Do You Even Hike, Bro?</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga libero
-        dicta labore ipsum quaerat blanditiis beatae voluptas nobis voluptatum
-        tempore exercitationem atque, neque, quidem asperiores distinctio maxime
-        nisi quibusdam. Vitae!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ipsam
+        itaque modi accusamus quaerat reiciendis placeat illum possimus
+        voluptates necessitatibus cum illo, incidunt tempore esse alias libero
+        minus accusantium. Perferendis, itaque. Facilis, quo ab beatae quos ex
+        laboriosam voluptatibus quis esse! Exercitationem animi, pariatur
+        officia est ducimus eligendi consequuntur itaque quasi provident aperiam
+        at deserunt officiis temporibus voluptates, tenetur maiores? Beatae,
+        pariatur ipsam voluptatem voluptatum aperiam fugiat amet voluptate
+        possimus sunt aut ipsa repellat cum distinctio veritatis saepe quod
+        maxime officia et iste a blanditiis velit. Ad, autem totam iure adipisci
+        corporis facere excepturi quasi! Itaque neque expedita architecto
+        quaerat!
       </p>
     </main>
 

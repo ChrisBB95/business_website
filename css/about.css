@@ -1,0 +1,16 @@
+main#about .profiles {
+  width: 85%;
+  height: 85%;
+  margin: auto; }
+  main#about .profiles .profile {
+    display: inline-block;
+    max-width: 300px;
+    margin: 1rem; }
+    main#about .profiles .profile .profile-image {
+      display: block;
+      margin: auto;
+      height: 200px;
+      width: 200px; }
+    main#about .profiles .profile .profile-text {
+      text-align: center;
+      width: 100%; }
