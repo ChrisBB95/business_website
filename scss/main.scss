@@ -40,6 +40,10 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(87, 110, 129);
+  z-index: 100;
   .logo {
     background: $logo no-repeat;
     background-size: contain;
@@ -93,7 +97,8 @@ header {
   }
 }
 
-main#home {
+main {
+  padding-top: 200px;
   .slideshow {
     max-width: 1000px;
     position: relative;
