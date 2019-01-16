@@ -41,13 +41,14 @@ body {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 99%;
   background-color: rgb(87, 110, 129);
   z-index: 100;
+
   .logo {
     background: $logo no-repeat;
     background-size: contain;
-    height: 8rem;
+    height: 5rem;
     width: 8rem;
     margin: 0.5rem;
     float: left;
@@ -55,8 +56,8 @@ header {
 
   h1 {
     float: left;
-    padding: 1.5rem 1rem;
-    font-size: 40px;
+    padding: 0.5rem 1rem;
+    font-size: 36px;
   }
 
   .menu {
