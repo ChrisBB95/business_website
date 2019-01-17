@@ -37,11 +37,12 @@ body {
   color: $primary-color;
   min-height: 100vh;
   padding-bottom: 5vh;
+  margin: 0;
 }
 
 header {
   position: fixed;
-  width: 99%;
+  width: 100%;
   background-color: rgb(87, 110, 129);
   z-index: 100;
 
