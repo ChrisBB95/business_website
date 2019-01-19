@@ -1,16 +1,32 @@
-main#about .profiles {
-  width: 85%;
-  height: 85%;
-  margin: auto; }
-  main#about .profiles .profile {
-    display: inline-block;
-    max-width: 300px;
-    margin: 1rem; }
-    main#about .profiles .profile .profile-image {
+main#about {
+  display: inline-block;
+  margin-left: 1rem; }
+  main#about .about-info {
+    width: 65%;
+    float: left; }
+    main#about .about-info .about-image {
       display: block;
       margin: auto;
-      height: 200px;
-      width: 200px; }
-    main#about .profiles .profile .profile-text {
-      text-align: center;
-      width: 100%; }
+      width: 50%;
+      border: 0.5rem #2b2b2b solid; }
+  main#about .profiles {
+    width: 35%;
+    margin: auto;
+    float: right;
+    padding-left: 7.5%; }
+    main#about .profiles h1 {
+      padding-left: 10.5%; }
+    main#about .profiles .profile {
+      display: block;
+      max-width: 300px;
+      margin: 1rem;
+      padding-top: 1rem; }
+      main#about .profiles .profile .profile-image {
+        display: block;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+        border: 0.5rem #2b2b2b solid; }
+      main#about .profiles .profile .profile-text {
+        text-align: center;
+        width: 100%; }

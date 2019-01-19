@@ -12,6 +12,7 @@
   img {
     display: inline-block;
     max-width: 300px;
+    padding-left: 1rem;
 
     &#pos1 {
       margin-bottom: 2.5rem;
@@ -22,6 +23,7 @@
   }
 }
 
-h1, p {
+h1,
+p {
   margin-left: 1rem;
 }

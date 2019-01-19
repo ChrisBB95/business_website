@@ -5,7 +5,8 @@
     float: left;
     height: 25vh; }
     .row .image-container .service-image {
-      max-height: 25vh; }
+      max-height: 25vh;
+      border: 0.5rem #2b2b2b solid; }
       .row .image-container .service-image#service1 {
         margin-left: 7rem; }
       .row .image-container .service-image#service2 {
